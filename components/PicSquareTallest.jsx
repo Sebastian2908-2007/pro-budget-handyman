@@ -1,10 +1,12 @@
 import Image from "next/image";
+import { TbPhoneCall } from "react-icons/tb";
 const PicSquareTallest = ({props}) => {
     const {path,alt,description} = props;
     console.log(props.path);
     return(
         <section
         className="
+        shadow-lg
         p-4 group 
         rounded-lg
          border 
@@ -17,7 +19,9 @@ const PicSquareTallest = ({props}) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <div className="relative flex 
+        <div className="
+        mb-2
+        relative flex 
         ">
       <Image
         className="relative w-full"
@@ -29,13 +33,20 @@ const PicSquareTallest = ({props}) => {
        
       />
     </div>
-        <h2 className={`mb-3 text-2xl font-semibold text-[#0855b1]`}>
+        <span className={`mb-3 text-2xl font-semibold text-[#e41314]`}>
         Call Now{' '}
-          <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-            -&gt;
-          </span>
-        </h2>
-        <p className={`m-0 max-w-[100%] text-sm text-center opacity-50`}>
+          <a 
+          href="tel:801-856-8040"
+          className="
+          inline-block 
+          transition-transform 
+          group-hover:translate-x-1 
+          motion-reduce:transform-none
+          ">
+          <TbPhoneCall style={{color:"#e41314"}}/>
+          </a>
+        </span>
+        <p className={`mt-2 max-w-[100%] text-sm text-center opacity-75`}>
          {description}
         </p>
       </section>

@@ -10,7 +10,8 @@ const Projects = () => {
             
       {/**Grid starts Square tallest pics */}
       <div className="
-      mb-48  
+      mb-36 
+      px-4 
       grid 
       gap-24 
       text-center 
@@ -34,7 +35,8 @@ const Projects = () => {
 
             {/**Grid starts Square short pics */}
       <div className="
-      mb-48  
+      mb-36 
+      px-4 
       grid 
       gap-24 
       text-center 
@@ -58,7 +60,8 @@ const Projects = () => {
 
            {/**Grid starts Square tall pics */}
            <div className="
-      mb-48  
+      mb-36
+      px-4  
       grid 
       gap-24 
       text-center 
@@ -84,12 +87,14 @@ const Projects = () => {
 
       {/**grid starts Tall Taller Pics */}
       <div className="  
-md:grid 
-  md:col-span-2
+      px-4
+grid 
+gap-24
+mb-36
+md:col-span-2
 text-center 
 md:max-w-5xl
 xl:max-w-7xl 
-
 md:w-full 
 md:mb-0 
 md:grid-cols-2 
@@ -108,7 +113,9 @@ md:text-left">
 
 {/**grid starts Tall Short Pics */}
       <div className="  
-md:grid 
+  grid 
+  gap-24
+  px-4
   md:col-span-2
 text-center 
 md:max-w-5xl
