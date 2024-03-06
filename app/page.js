@@ -2,7 +2,7 @@
 import Image from "next/image";
 import hero from '../public/pro-budget-hero1.webp';
 import firstBody from '../public/elavate-pro-budget1.webp';
-import consider from '../public/considerations3.webp';
+import consider from '../public/considerations1.webp';
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
