@@ -93,6 +93,28 @@ const Dropdown = () => {
             >
               Contact Us
             </Link>
+         <Link
+         onClick={() => {
+          closeDropdown();
+         }}
+         href='/projects'   
+            className="
+            block 
+            px-4 
+            py-2 
+            text-[.8em] 
+            text-[#1a0708] 
+            hover:bg-[#e41314]
+            hover:text-[#d9b061]
+            
+             
+            font-[encyclopaediea]
+            " 
+           
+          
+            >
+              Projects
+            </Link>
 
 
          <span   
