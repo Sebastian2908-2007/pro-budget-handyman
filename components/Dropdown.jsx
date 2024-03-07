@@ -117,156 +117,11 @@ const Dropdown = () => {
             </Link>
 
 
-         <span   
-            className="
-            block 
-            px-4 
-            py-2 
-            text-[.8em] 
-            text-[#1a0708] 
-            hover:bg-[#e41314]
-            hover:text-[#d9b061]
-            
-             
-            font-[encyclopaediea]
-            " 
-            role="menuitem" 
-            onClick={() => {
-               const element = document.getElementById('ei');
-               element?.scrollIntoView({
-                block:'nearest',
-                behavior: 'smooth'
-               });
-                closeDropdown();
-            }}
-            >
-             Drywall Installation and Repair
-            </span>
-          <span 
-            className="
-            block 
-            px-4 
-            py-2 
-            text-[.8em] 
-            text-[#1a0708] 
-            hover:bg-[#e41314] 
-            hover:text-[#d9b061]
-            
-             
-            font-[encyclopaediea]
-            " 
-            role="menuitem" 
-            onClick={() => {
-               const element = document.getElementById('pd');
-               element?.scrollIntoView({
-                block:'nearest',
-                behavior: 'smooth'
-               });
-                closeDropdown();
-            }}
-            >
-            Painting and Wall Treatments
-            </span>
+          
             </>
             
+              
             <span 
-             
-            className="
-            block 
-            px-4 
-            py-2 
-            text-[.8em] 
-            text-[#1a0708] 
-            hover:bg-[#e41314]
-            hover:text-[#d9b061]
-             
-            font-[encyclopaediea]
-            " 
-            role="menuitem" 
-            onClick={() => {
-               const element = document.getElementById('emes');
-               element?.scrollIntoView({
-                block:'nearest',
-                behavior: 'smooth'
-               });
-                closeDropdown();
-            }}
-            >
-             Flooring Installation and Repair
-            </span>
-            <span 
-            className="
-            block 
-            px-4 
-            py-2 
-            text-[.8em] 
-            text-[#1a0708] 
-            hover:bg-[#e41314] 
-            hover:text-[#d9b061]
-           
-            font-[encyclopaediea]
-            " 
-            role="menuitem" 
-            onClick={() => {
-               const element = document.getElementById('sss');
-               element?.scrollIntoView({
-                block:'nearest',
-                behavior: 'smooth'
-               });
-                closeDropdown();
-            }}
-            >
-              Electrical Repairs and Installations
-            </span>
-            <span 
-            className="
-            block 
-            px-4 
-            py-2 
-            text-[.8em] 
-            text-[#1a0708] 
-            hover:bg-[#e41314] 
-            hover:text-[#d9b061]
-           
-            font-[encyclopaediea]
-            " 
-            role="menuitem" 
-            onClick={() => {
-               const element = document.getElementById('dcs');
-               element?.scrollIntoView({
-                block:'nearest',
-                behavior: 'smooth'
-               });
-                closeDropdown();
-            }}
-            >
-             Light Fixture and Ceiling Fan Installation
-            </span>
-            <span
-             className="
-             block 
-             block
-             px-4 
-             py-2 
-             text-[.8em] 
-             text-[#1a0708] 
-             hover:bg-[#e41314] 
-             hover:text-[#d9b061]
-            
-            font-[encyclopaediea]
-             " 
-             onClick={() => {
-                const element = document.getElementById('hes');
-                element?.scrollIntoView({
-                    block:'nearest',
-                 behavior: 'smooth'
-                });
-                 closeDropdown();
-             }}
-            >
-                Furniture Assembly and Repair
-              </span>
-              <span 
             className="
             block 
             px-4 
@@ -276,145 +131,22 @@ const Dropdown = () => {
             hover:bg-[#e41314] 
             hover:text-[#d9b061]
             
+             
             font-[encyclopaediea]
             " 
             role="menuitem" 
             onClick={() => {
-               const element = document.getElementById('ees');
+               const element = document.getElementById('services');
                element?.scrollIntoView({
-                block:'nearest',
+                block:'start',
                 behavior: 'smooth'
                });
                 closeDropdown();
             }}
             >
-              Appliance Installation
-            </span>
-            <span 
-            className="
-            block 
-            px-4 
-            py-2 
-            text-[.8em] 
-            text-[#1a0708] 
-            hover:bg-[#e41314] 
-            hover:text-[#d9b061]
-           
-            font-[encyclopaediea]
-            " 
-            role="menuitem" 
-            onClick={() => {
-               const element = document.getElementById('ldc');
-               element?.scrollIntoView({
-                block:'nearest',
-                behavior: 'smooth'
-               });
-                closeDropdown();
-            }}
-            >
-             Carpentry and Woodworking
+             Services
             </span>
 
-            <span 
-            className="
-            block 
-            px-4 
-            py-2 
-            text-[.8em] 
-            text-[#1a0708] 
-            hover:bg-[#e41314] 
-            hover:text-[#d9b061]
-           
-           
-            font-[encyclopaediea]
-            " 
-            role="menuitem" 
-            onClick={() => {
-               const element = document.getElementById('em');
-               element?.scrollIntoView({
-                block:'nearest',
-                behavior: 'smooth'
-               });
-                closeDropdown();
-            }}
-            >
-            Door and Window Services
-            </span>
-
-            <span 
-            className="
-            block 
-            px-4 
-            py-2 
-            text-[.8em] 
-            text-[#1a0708] 
-            hover:bg-[#e41314] 
-            hover:text-[#d9b061]
-           
-           
-            font-[encyclopaediea]
-            " 
-            role="menuitem" 
-            onClick={() => {
-               const element = document.getElementById('cci');
-               element?.scrollIntoView({
-                block:'nearest',
-                behavior: 'smooth'
-               });
-                closeDropdown();
-            }}
-            >
-           Home Security Upgrades
-            </span>
-            <span 
-            className="
-            block 
-            px-4 
-            py-2 
-            text-[.8em] 
-            text-[#1a0708] 
-            hover:bg-[#e41314] 
-            hover:text-[#d9b061]
-          
-            font-[encyclopaediea]
-            " 
-            role="menuitem" 
-            onClick={() => {
-               const element = document.getElementById('si');
-               element?.scrollIntoView({
-                block:'nearest',
-                behavior: 'smooth'
-               });
-                closeDropdown();
-            }}
-            >
-            Outdoor and Garden Maintenance
-            </span>
-            <span 
-            className="
-            block 
-            px-4 
-            py-2 
-            text-[.8em] 
-            text-[#1a0708] 
-            hover:bg-[#e41314] 
-            hover:text-[#d9b061]
-            
-             
-            font-[encyclopaediea]
-            " 
-            role="menuitem" 
-            onClick={() => {
-               const element = document.getElementById('ti');
-               element?.scrollIntoView({
-                block:'nearest',
-                behavior: 'smooth'
-               });
-                closeDropdown();
-            }}
-            >
-             General Maintenance
-            </span>
           </div>
         </div>
       )}

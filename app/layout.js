@@ -1,8 +1,9 @@
+
 import { Inter } from "next/font/google";
 import Image from "next/image";
 import "./globals.css";
 import { FaFacebookSquare } from "react-icons/fa";
-import Dropdown from "@/components/Dropdown";
+import Header from "@/components/Header";
 import Link from "next/link";
 //#e41314 main red
 // #1a0708 black
@@ -50,33 +51,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}  style={{ height: '100%' }}>
 
-    <header className="bg-white flex flex-row justify-between items-center">
-    <Link
-    href='/'
-            className="
-            
-            flex place-items-center  
-            gap-2 
-            
-            lg:pointer-events-auto 
-            lg:p-0"
-            
-          
-          >
-            
-            <Image
-              src="/probudget-logo.webp"
-              alt="Pro Budget Handyman The best handyman in Utah"
-              className=""
-              width={250}
-              height={24}
-              priority
-            />
-          </Link>
-          <div className="p-4">
-          <Dropdown/>
-          </div>
-    </header>
+    <Header/>
 
       <main className="
       mainClass 

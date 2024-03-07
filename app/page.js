@@ -277,7 +277,7 @@ export default function Home() {
     font-[encyclopaediea] 
     min-[1024px]:text-center
     min-[1024px]:mb-8
-    ">Considerations When Hiring a Handyman Service in Salt Lake City</h2>
+    ">Why Pro Budget Handyman Excels in Essential Home Repairs</h2>
     </motion.div>
     <div className="
           relative
@@ -301,48 +301,9 @@ export default function Home() {
     font-[gillsans]    
     md:px-24 min-[1024px]:px-36 
     min-[1920px]:px-72">
-    
-    When selecting a handyman service in Salt Lake City, it's important to weigh several
-     critical factors to ensure the success of your project.
-     Start by verifying the handyman's licensing and certifications to comply with local regulations.
-    </p>
-    <p className="
-    text-center 
-    mb-6 
-    font-[gillsans]   
-    md:px-24 
-    min-[1024px]:px-36 
-    min-[1920px]:px-72
-    ">
-   Assess their experience in handling tasks similar to your needs, which is key for
-    efficient and quality work in residential settings. It's beneficial to check references 
-   and reviews from past clients to gauge the handyman's reliability and the quality of their work.
-    </p>
-    <p className="
-    text-center 
-    mb-6 
-    font-[gillsans]   
-    md:px-24 
-    min-[1024px]:px-36 
-    min-[1920px]:px-72
-    ">
-  Ensure the handyman service has sufficient insurance, 
-    to safeguard all parties involved. Good communication and prompt responsiveness
-   are vital qualities for a smooth operation and partnership during the project.
-    </p>
-    <p className="
-    text-center 
-    mb-6 
-    font-[gillsans]   
-    md:px-24 
-    min-[1024px]:px-36 
-    min-[1920px]:px-72
-    ">
-   Request a clear and detailed quote, as well as an outlined timeline,
-    to help with precise budgeting and scheduling. Finally, make sure the handyman
-     is knowledgeable about Salt Lake City's
-    building codes and regulations, ensuring a smooth and compliant project execution.
-    </p>
+    Pro Budget Handyman is your ideal choice in Salt Lake City and the surrounding areas,
+     for simple home repairs that enhance your living spaces. Here's why we stand out:
+    </p> 
     <div className="
     text-gray-800 
     font-[gill sans]   
@@ -365,12 +326,22 @@ export default function Home() {
             }}
          >
         <div className="mb-4">
-          <span className='font-bold text-[#c35b5c]'>License and Certification:</span>
-        &nbsp;
-        Confirm the handyman's qualifications for residential work in Salt Lake City.
+          <span className='font-bold text-[#c35b5c]'>Versatility in Services:</span>
+          <p className="
+    text-center 
+    mb-6 
+    font-[gillsans]   
+   
+    ">
+  We specialize in a range of crucial home repairs, from interior and exterior door painting
+   to installing
+   and upgrading various fixtures like interior doors, closet doors, and kitchen cabinets.
+    </p>
+       
         </div>
       </motion.div>
       </li>
+
       <li>
       <motion.div
             initial="hidden"
@@ -383,12 +354,21 @@ export default function Home() {
             }}
          >
         <div className="mb-4">
-          <span className='font-bold text-[#c35b5c]'>Experience:</span>
-        &nbsp;
-        Check for a history of handling similar home improvement or repair tasks.
+          <span className='font-bold text-[#c35b5c]'>Maintenance Expertise:</span>
+          <p className="
+    text-center 
+    mb-6 
+    font-[gillsans]   
+  
+    ">
+  With services like dryer vent cleaning and gutter cleaning, we ensure your home
+   functions efficiently and is well-maintained. This attention to detail
+   contributes to the longevity and optimal performance of your home systems.
+    </p>
         </div>
         </motion.div>
         </li>
+
         <li>
         <motion.div
             initial="hidden"
@@ -401,12 +381,21 @@ export default function Home() {
             }}
          >
         <div className="mb-4">
-          <span className='font-bold text-[#c35b5c]'>References and Reviews:</span>
-        &nbsp;
-        Look for feedback from previous clients to verify workmanship and reliability.
+          <span className='font-bold text-[#c35b5c]'>Bathroom Upgrades:</span>
+          <p className="
+    text-center 
+    mb-6 
+    font-[gillsans]   
+   
+    ">
+  We take care of bathroom installations, including bathroom exhaust fan installation,
+   bathroom vanity installation, and bathtub installation. Our expertise extends to 
+  shower valve cartridge replacement, ensuring your bathroom stays functional and stylish.
+    </p>
         </div>
         </motion.div>
         </li>
+
         <li>
         <motion.div
             initial="hidden"
@@ -419,12 +408,21 @@ export default function Home() {
             }}
          >
         <div className="mb-4">
-          <span className='font-bold text-[#c35b5c]'>Insurance Coverage:</span>
-        &nbsp;
-        Make sure there's appropriate insurance to cover liability and other potential issues.
+          <span className='font-bold text-[#c35b5c]'>Attention to Detail:</span>
+          <p className="
+    text-center 
+    mb-6 
+    font-[gillsans]   
+   
+    ">
+  For finishing touches, we offer baseboard and trim installation, adding the perfect
+   touch to your interior spaces.
+   Our meticulous approach guarantees a polished and well-finished look for your home.
+    </p>
         </div>
         </motion.div>
         </li>
+
         <li>
         <motion.div
             initial="hidden"
@@ -437,12 +435,21 @@ export default function Home() {
             }}
          >
         <div className="mb-4">
-          <span className='font-bold text-[#c35b5c]'>Effective Communication:</span>
-        &nbsp;
-        Evaluate the handyman's willingness to communicate openly and efficiently.
+          <span className='font-bold text-[#c35b5c]'>Reliable and Prompt Service:</span>
+          <p className="
+    text-center 
+    mb-6 
+    font-[gillsans]   
+ 
+    ">
+   At Pro Budget Handyman, we're renowned for reliability and prompt responsiveness.
+    When you choose us, you're opting for a hassle-free experience,
+    ensuring your home repairs are completed efficiently and within the agreed-upon timelines.
+    </p>
         </div>
         </motion.div>
         </li>
+
         <li>
         <motion.div
             initial="hidden"
@@ -456,30 +463,20 @@ export default function Home() {
          >
         <div className="mb-4">
           <span className='font-bold text-[#c35b5c]'>Transparent Pricing:</span>
-        &nbsp;
-        Insist on a straightforward and detailed estimate to avoid unexpected costs. Also realize 
-        most projects need to be assessed in person.
+          <p className="
+    text-center 
+    mb-6 
+    font-[gillsans]   
+  
+    ">
+  Planning your budget becomes stress-free with us. We provide clear,
+   project proposals that encompass all aspects of the job,
+   preventing unexpected costs and allowing for precise financial planning.
+    </p>
         </div>
         </motion.div>
         </li>
-        <li>
-        <motion.div
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            variants={{
-              visible: { opacity: 1, scale: 1 },
-              hidden: { opacity: 0, scale: 0 }
-            }}
-         >
-        <div className="mb-4">
-          <span className='font-bold text-[#c35b5c]'>Local Regulations Knowledge:</span>
-        &nbsp;
-        The handyman should be familiar with and adhere to local building codes.
-        </div>
-        </motion.div>
-        </li>
+
     </ul>
     </div>
     </section>
@@ -510,6 +507,7 @@ export default function Home() {
     md:p-8
     rounded-lg
     "
+    id="services"
     > <motion.div
             initial="hidden"
             whileInView="visible"
@@ -536,7 +534,7 @@ export default function Home() {
     id="ei"
     >
         <h2 className="text-center text-3xl text-[#644c4a] mb-8  font-[encyclopaediea]">
-          Drywall Installation and Repair
+        Ceiling Fan Installation & Replacement
         </h2>
         <div className="
           relative
@@ -553,9 +551,9 @@ export default function Home() {
         />*/}
       </div>
       <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
-        <li className='mb-8 '>Patching holes and cracks</li>
-        <li className='mb-8'>Installing new drywall</li>
-        <li className='mb-8'>Sanding and priming drywall for painting</li>
+        <li className='mb-8 '>Efficient and Safe Installations</li>
+        <li className='mb-8'>Expert Replacement Services</li>
+        <li className='mb-8'>Enhance Air Circulation in Any Room</li>
       </ul>
           <p className="text-center mb-6">
           <a className=" 
@@ -593,7 +591,7 @@ export default function Home() {
     id="pd"
     >
         <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
-        Painting and Wall Treatments
+        Electric Fireplace Installation
           </h2>
             <div className="
           relative
@@ -611,9 +609,9 @@ export default function Home() {
         />*/}
       </div>
       <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
-        <li className='mb-8'>Interior and exterior painting</li>
-        <li className='mb-8'>Wallpaper installation and removal</li>
-        <li className='mb-8'>Applying textures to walls</li>
+        <li className='mb-8'>Cozy and Stylish Home Upgrades</li>
+        <li className='mb-8'>Safe and Professional Installation</li>
+        <li className='mb-8'>Transform Your Living Space with Ambiance</li>
      </ul>
           <p className="text-center mb-6 font-[gill sans]  ">
           <a className=" 
@@ -651,7 +649,7 @@ export default function Home() {
     id="emes"
     >
         <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
-        Flooring Installation and Repair
+        Flooring Repair
         </h2>
             <div className="
           relative
@@ -668,9 +666,9 @@ export default function Home() {
         />*/}
       </div>
       <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
-        <li className='mb-8'>Installing tile, hardwood, laminate, or vinyl flooring</li>
-        <li className='mb-8'>Repairing or replacing damaged floorboards</li>
-        <li className='mb-8'>Grout repair and replacement</li>
+        <li className='mb-8'>Swift and Skillful Floor Repairs </li>
+        <li className='mb-8'>Comprehensive Solutions for Various Flooring Types</li>
+        <li className='mb-8'>Restore the Beauty and Integrity of Your Floors</li>
      </ul>
           <p className="text-center mb-6 font-[gill sans]  ">
          
@@ -710,7 +708,7 @@ export default function Home() {
     id="sss"
     >
         <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
-        Electrical Repairs and Installations
+        Interior & Exterior Light Fixture Installation
         </h2>
             <div className="
           relative
@@ -727,9 +725,9 @@ export default function Home() {
         />*/}
       </div>
       <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
-        <li className='mb-8'>Replacing light fixtures and ceiling fans</li>
-        <li className='mb-8'>Installing or replacing outlets and switches</li>
-        <li className='mb-8'>Upgrading electrical panels</li>
+        <li className='mb-8'>Illuminate Your Home Inside and Out</li>
+        <li className='mb-8'>Quick and Precise Installations</li>
+        <li className='mb-8'>Enhance Ambiance with Stylish Fixtures</li>
      </ul>
         <p className="text-center mb-6 font-[gill sans]  ">
           <a className=" 
@@ -767,7 +765,7 @@ export default function Home() {
     id="dcs"
     >
         <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
-        Light Fixture and Ceiling Fan Installation
+        Garbage Disposal Replacement
         </h2>
             <div className="
           relative
@@ -784,9 +782,9 @@ export default function Home() {
         />*/}
       </div>
       <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
-        <li className='mb-8'>Installing new light fixtures to brighten up your space</li>
-        <li className='mb-8'>Ceiling fan assembly and installation for improved air circulation</li>
-        <li className='mb-8'>Upgrading switches for dimmers or smart controls for enhanced ambiance and energy savings</li>
+        <li className='mb-8'>Hassle-Free Disposal Upgrades</li>
+        <li className='mb-8'>Professional Replacement Services</li>
+        <li className='mb-8'>Improve Kitchen Efficiency and Hygiene</li>
     </ul>
           <p className="text-center mb-6 font-[gill sans]  ">
           <a className=" 
@@ -824,7 +822,7 @@ export default function Home() {
     id="hes"
     >
         <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
-        Furniture Assembly and Repair
+        Kitchen and Bathroom Faucet Installation
         </h2>
             <div className="
           relative
@@ -841,9 +839,9 @@ export default function Home() {
         />*/}
       </div>
       <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
-        <li className='mb-8'>Assembling flat-pack furniture</li>
-        <li className='mb-8'>Stabilizing wobbly furniture for safety and durability</li>
-        <li className='mb-8'>Tightening loose chairs and tables</li>
+        <li className='mb-8'>Upgrade Your Kitchen and Bathroom Spaces</li>
+        <li className='mb-8'>Quick and Reliable Faucet Installations</li>
+        <li className='mb-8'>Enhance Functionality and Aesthetics</li>
      </ul>
           <p className="text-center mb-6 font-[gill sans]  ">
          
@@ -882,7 +880,7 @@ export default function Home() {
     id="ees"
     >
         <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
-        Appliance Installation
+        Furniture Assembly
         </h2>
             <div className="
           relative
@@ -899,9 +897,9 @@ export default function Home() {
         />*/}
       </div>
       <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
-        <li className='mb-8'>Expert installation of dishwashers, washers, and dryers</li>
-        <li className='mb-8'>Ensuring seamless replacement of appliances with precision</li>
-        <li className='mb-8'>Vent cleaning specifically for dryer installations</li>
+        <li className='mb-8'>Stress-Free Furniture Setup</li>
+        <li className='mb-8'>Efficient and Accurate Assembly</li>
+        <li className='mb-8'>Enjoy Your New Furniture Without the Hassle</li>
      </ul>
           <p className="text-center mb-6 font-[gill sans]  ">
           <a className=" 
@@ -939,7 +937,7 @@ export default function Home() {
     id="ldc"
     >
         <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
-        Carpentry and Woodworking
+        Interior & Exterior Door Painting
         </h2>
             <div className="
           relative
@@ -956,9 +954,9 @@ export default function Home() {
         />*/}
       </div>
       <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
-        <li className='mb-8'>Building or repairing cabinets</li>
-        <li className='mb-8'>Installing shelving and storage solutions</li>
-        <li className='mb-8'>Custom woodworking projects</li>
+        <li className='mb-8'>Revitalize Your Doors with Professional Painting</li>
+        <li className='mb-8'>Expert Color Matching and Application</li>
+        <li className='mb-8'>Boost Curb Appeal and Interior Aesthetics</li>
     </ul>
           <p className="text-center mb-6 font-[gill sans]  ">
           <a className=" 
@@ -998,7 +996,7 @@ export default function Home() {
     id="em"
     >
         <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
-        Door and Window Services
+        Interior Door Installation
         </h2>
             <div className="
           relative
@@ -1015,9 +1013,9 @@ export default function Home() {
         />*/}
       </div>
       <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
-        <li className='mb-8'>Installing or replacing doors and windows</li>
-        <li className='mb-8'>Weatherproofing doors and windows</li>
-        <li className='mb-8'>Repairing window screens</li>
+        <li className='mb-8'>Seamless and Professional Door Installations</li>
+        <li className='mb-8'>Enhance Privacy and Room Functionality</li>
+        <li className='mb-8'>Choose from a Variety of Door Styles</li>
     </ul>
           <p className="text-center mb-6 font-[gill sans]  ">
           <a className=" 
@@ -1055,7 +1053,7 @@ export default function Home() {
     id="cci"
     >
         <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
-        Home Security Upgrades
+        Closet Door Installation
         </h2>
             <div className="
           relative
@@ -1072,9 +1070,9 @@ export default function Home() {
         />*/}
       </div>
       <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
-        <li className='mb-8'>Peephole installation for front and back doors</li>
-        <li className='mb-8'>Adding deadbolts and security locks</li>
-        <li className='mb-8'>Window security films</li>
+        <li className='mb-8'>Optimize Storage Spaces with Stylish Closet Doors</li>
+        <li className='mb-8'>Efficient and Precise Installations</li>
+        <li className='mb-8'>Customize Doors to Fit Your Unique Style</li>
     </ul>
           <p className="text-center mb-6 font-[gill sans]  ">
           <a className=" 
@@ -1112,7 +1110,7 @@ export default function Home() {
     id="si"
     >
         <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
-        Outdoor and Garden Maintenance
+        Dryer Vent Cleaning
         </h2>
             <div className="
           relative
@@ -1129,9 +1127,9 @@ export default function Home() {
         />*/}
       </div>
       <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
-        <li className='mb-8'>Repairing decks and patios</li>
-        <li className='mb-8'>Fence repair and installation</li>
-        <li className='mb-8'>Gutter cleaning and repair</li>
+        <li className='mb-8'>Prevent Fire Hazards and Improve Efficiency</li>
+        <li className='mb-8'>Thorough and Professional Vent Cleaning</li>
+        <li className='mb-8'>Ensure Proper Airflow for Your Dryer</li>
     </ul>
         <p className="text-center mb-6 font-[gill sans]  ">
           <a className=" 
@@ -1169,7 +1167,7 @@ export default function Home() {
     id="ti"
     >
         <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
-        General Maintenance
+        Toilets, Bathroom Exhaust Fan Installation & Replacement
         </h2>
             <div className="
           relative
@@ -1186,9 +1184,9 @@ export default function Home() {
         />*/}
       </div>
       <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
-        <li className='mb-8'>Smoke detector and carbon monoxide detector battery replacement</li>
-        <li className='mb-8'>Seasonal home maintenance, including weatherproofing and sealing</li>
-        <li className='mb-8'>Air filter replacement for improved indoor air quality</li>
+        <li className='mb-8'>Reliable Toilet Installations and Replacements</li>
+        <li className='mb-8'>Improve Air Quality with Exhaust Fan Installation</li>
+        <li className='mb-8'>Enhance Bathroom Functionality and Comfort</li>
       </ul>
         
           <p className="text-center mb-6 font-[gill sans]  ">
@@ -1201,6 +1199,417 @@ export default function Home() {
           </p>
     </section>
     </motion.div>
+
+
+    {/**NEW 7 starts */}
+
+    <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              visible: { opacity: 1, scale: 1 },
+              hidden: { opacity: 0, scale: 0 }
+            }}
+         >
+    <section className="
+    mb-8 
+    flex 
+    flex-col 
+    items-center
+  
+    rounded-md
+     p-4
+     bg-white
+     shadow-lg
+    
+     h-full
+    " 
+    id="ti"
+    >
+        <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
+        Kitchen Cabinet Installation
+        </h2>
+            <div className="
+          relative
+          flex 
+          w-[100%]
+          
+        ">
+        {/*<Image
+          className=""
+          src={shelving}
+          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          sizes='80vw'
+         
+        />*/}
+      </div>
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+        <li className='mb-8'>Customized Cabinet Installations for Your Kitchen</li>
+        <li className='mb-8'>Efficient and Precise Installation Services</li>
+        <li className='mb-8'>Upgrade Your Kitchen Storage and Style</li>
+      </ul>
+        
+          <p className="text-center mb-6 font-[gill sans]  ">
+          <a className=" 
+        font-[toroka] 
+        text-lg
+        text-[#e41314]
+        " 
+        href="tel:801-856-8040">Click to Call Now!</a>
+          </p>
+    </section>
+    </motion.div>
+    <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              visible: { opacity: 1, scale: 1 },
+              hidden: { opacity: 0, scale: 0 }
+            }}
+         >
+    <section className="
+    mb-8 
+    flex 
+    flex-col 
+    items-center
+  
+    rounded-md
+     p-4
+     bg-white
+     shadow-lg
+    
+     h-full
+    " 
+    id="ti"
+    >
+        <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
+        Bathroom Vanity Installation
+        </h2>
+            <div className="
+          relative
+          flex 
+          w-[100%]
+          
+        ">
+        {/*<Image
+          className=""
+          src={shelving}
+          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          sizes='80vw'
+         
+        />*/}
+      </div>
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+        <li className='mb-8'>Transform Your Bathroom with Stylish Vanities</li>
+        <li className='mb-8'>Professional and Efficient Installation Services</li>
+        <li className='mb-8'>Maximize Storage and Aesthetics in Your Bathroom</li>
+      </ul>
+        
+          <p className="text-center mb-6 font-[gill sans]  ">
+          <a className=" 
+        font-[toroka] 
+        text-lg
+        text-[#e41314]
+        " 
+        href="tel:801-856-8040">Click to Call Now!</a>
+          </p>
+    </section>
+    </motion.div>
+    <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              visible: { opacity: 1, scale: 1 },
+              hidden: { opacity: 0, scale: 0 }
+            }}
+         >
+    <section className="
+    mb-8 
+    flex 
+    flex-col 
+    items-center
+  
+    rounded-md
+     p-4
+     bg-white
+     shadow-lg
+    
+     h-full
+    " 
+    id="ti"
+    >
+        <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
+        Bathtub Installation
+        </h2>
+            <div className="
+          relative
+          flex 
+          w-[100%]
+          
+        ">
+        {/*<Image
+          className=""
+          src={shelving}
+          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          sizes='80vw'
+         
+        />*/}
+      </div>
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+        <li className='mb-8'>Luxurious Bathtub Installations for Relaxation</li>
+        <li className='mb-8'>Customize Your Bathroom Space</li>
+        <li className='mb-8'>Professional and Safe Installation Services</li>
+      </ul>
+        
+          <p className="text-center mb-6 font-[gill sans]  ">
+          <a className=" 
+        font-[toroka] 
+        text-lg
+        text-[#e41314]
+        " 
+        href="tel:801-856-8040">Click to Call Now!</a>
+          </p>
+    </section>
+    </motion.div>
+    <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              visible: { opacity: 1, scale: 1 },
+              hidden: { opacity: 0, scale: 0 }
+            }}
+         >
+    <section className="
+    mb-8 
+    flex 
+    flex-col 
+    items-center
+  
+    rounded-md
+     p-4
+     bg-white
+     shadow-lg
+    
+     h-full
+    " 
+    id="ti"
+    >
+        <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
+        Shower Valve Cartridge Replacement
+        </h2>
+            <div className="
+          relative
+          flex 
+          w-[100%]
+          
+        ">
+        {/*<Image
+          className=""
+          src={shelving}
+          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          sizes='80vw'
+         
+        />*/}
+      </div>
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+        <li className='mb-8'>Ensure Optimal Water Temperature and Flow</li>
+        <li className='mb-8'>Expert Replacement Services</li>
+        <li className='mb-8'>Improve Your Shower Experience</li>
+      </ul>
+        
+          <p className="text-center mb-6 font-[gill sans]  ">
+          <a className=" 
+        font-[toroka] 
+        text-lg
+        text-[#e41314]
+        " 
+        href="tel:801-856-8040">Click to Call Now!</a>
+          </p>
+    </section>
+    </motion.div>
+    <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              visible: { opacity: 1, scale: 1 },
+              hidden: { opacity: 0, scale: 0 }
+            }}
+         >
+    <section className="
+    mb-8 
+    flex 
+    flex-col 
+    items-center
+  
+    rounded-md
+     p-4
+     bg-white
+     shadow-lg
+    
+     h-full
+    " 
+    id="ti"
+    >
+        <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
+        Baseboard and Trim Installation
+        </h2>
+            <div className="
+          relative
+          flex 
+          w-[100%]
+          
+        ">
+        {/*<Image
+          className=""
+          src={shelving}
+          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          sizes='80vw'
+         
+        />*/}
+      </div>
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+        <li className='mb-8'>Enhance Interior Design with Stylish Baseboards</li>
+        <li className='mb-8'>Professional Installation for a Polished Look</li>
+        <li className='mb-8'>Choose from a Variety of Materials and Finishes</li>
+      </ul>
+        
+          <p className="text-center mb-6 font-[gill sans]  ">
+          <a className=" 
+        font-[toroka] 
+        text-lg
+        text-[#e41314]
+        " 
+        href="tel:801-856-8040">Click to Call Now!</a>
+          </p>
+    </section>
+    </motion.div>
+    <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              visible: { opacity: 1, scale: 1 },
+              hidden: { opacity: 0, scale: 0 }
+            }}
+         >
+    <section className="
+    mb-8 
+    flex 
+    flex-col 
+    items-center
+  
+    rounded-md
+     p-4
+     bg-white
+     shadow-lg
+    
+     h-full
+    " 
+    id="ti"
+    >
+        <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
+        Gutter Cleaning
+        </h2>
+            <div className="
+          relative
+          flex 
+          w-[100%]
+          
+        ">
+        {/*<Image
+          className=""
+          src={shelving}
+          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          sizes='80vw'
+         
+        />*/}
+      </div>
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+        <li className='mb-8'>Prevent Water Damage with Regular Gutter Maintenance</li>
+        <li className='mb-8'>Thorough and Efficient Cleaning Services</li>
+        <li className='mb-8'>Ensure Proper Water Drainage from Your Roof</li>
+      </ul>
+        
+          <p className="text-center mb-6 font-[gill sans]  ">
+          <a className=" 
+        font-[toroka] 
+        text-lg
+        text-[#e41314]
+        " 
+        href="tel:801-856-8040">Click to Call Now!</a>
+          </p>
+    </section>
+    </motion.div>
+    <motion.div
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+            variants={{
+              visible: { opacity: 1, scale: 1 },
+              hidden: { opacity: 0, scale: 0 }
+            }}
+         >
+    <section className="
+    mb-8 
+    flex 
+    flex-col 
+    items-center
+  
+    rounded-md
+     p-4
+     bg-white
+     shadow-lg
+    
+     h-full
+    " 
+    id="ti"
+    >
+        <h2 className="text-center text-3xl text-[#644c4a] font-[encyclopaediea]  mb-8">
+        TV Mounting
+        </h2>
+            <div className="
+          relative
+          flex 
+          w-[100%]
+          
+        ">
+        {/*<Image
+          className=""
+          src={shelving}
+          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          sizes='80vw'
+         
+        />*/}
+      </div>
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+        <li className='mb-8'>Professional and Secure TV Installation</li>
+        <li className='mb-8'>Customized Placement for Optimal Viewing</li>
+        <li className='mb-8'>Concealed Wiring for a Clean and Tidy Look</li>
+      </ul>
+        
+          <p className="text-center mb-6 font-[gill sans]  ">
+          <a className=" 
+        font-[toroka] 
+        text-lg
+        text-[#e41314]
+        " 
+        href="tel:801-856-8040">Click to Call Now!</a>
+          </p>
+    </section>
+    </motion.div>
+
 </div>
 
       
