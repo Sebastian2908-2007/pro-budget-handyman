@@ -152,10 +152,21 @@ export default function Home() {
         min-[1920px]:px-72
         min-[1920px]:mb-14
         ">
-       Transform your home with Pro Budget Handyman, where our expertise spans across 
-       custom installations and repairs in Utah. Specializing in personalized handyman 
-       solutions, we cater to your specific
-        home needs, 
+    Pro Budget Handyman specializes in a diverse range of essential home repairs and installations,
+     bringing expertise to every corner of your Utah home
+        </p>
+        <p className="
+        text-center 
+        mb-6 
+        font-[gillsans]   
+        min-[1024px]:text-center 
+        md:px-24
+        min-[1024px]:px-36 
+        min-[1920px]:px-72
+        min-[1920px]:mb-14
+        ">
+       From seamless door installations
+        to efficient gutter cleaning, our team is dedicated to enhancing your living spaces.   
         </p>
         </motion.div>
         <motion.div
@@ -178,9 +189,23 @@ export default function Home() {
         min-[1920px]:px-72
         min-[1920px]:mb-14
         ">
-          from electrical fixes to drywall and flooring services.
-        Our team is equipped to integrate modern upgrades, including smart home
-         enhancements and physical security like deadbolts and code locks, 
+        Benefit from our proficiency in interior and exterior door projects, 
+        furniture assembly, and flooring repairs. We excel 
+        in bathroom upgrades,   
+        </p>
+        <p className="
+        text-center 
+        mb-6 
+        font-[gillsans]   
+        min-[1024px]:text-center 
+        md:px-24
+        min-[1024px]:px-36 
+        min-[1920px]:px-72
+        min-[1920px]:mb-14
+        ">
+           including bathtub installations and shower valve cartridge replacements.
+       Our comprehensive services
+        extend to reliable gutter cleaning, ensuring your home remains in top-notch condition.    
         </p>
         </motion.div>
         <motion.div
@@ -203,9 +228,8 @@ export default function Home() {
         min-[1920px]:px-72
         min-[1920px]:mb-14
         ">
-          ensuring your home meets today's standards of convenience and safety.
-        Expect top-notch craftsmanship and reliable service for all your home projects,
-         big or small. 
+    With Pro Budget Handyman, you can trust in our commitment to quality and precision. Choose us for reliable and
+     expert handyman services that elevate the comfort and value of your home in Salt Lake City&nbsp;<span className="text-[#e41314]">100% SATISFACTION GUARANTEED</span>.
         </p>
         </motion.div>
       
@@ -230,8 +254,7 @@ export default function Home() {
         min-[1920px]:px-72
         min-[1920px]:mb-14
         ">
-         For expert handyman services that promise to enhance
-         the comfort and value of your home,
+       
           &nbsp;
           <a className=" 
         font-[toroka] 
