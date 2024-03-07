@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
-import hero from '../public/pro-budget-hero1.webp';
-import firstBody from '../public/elavate-pro-budget1.webp';
+import hero from '../public/pro-budget-hero2.webp';
+import firstBody from '../public/elavate-pro-budget2.webp';
 import consider from '../public/considerations1.webp';
 import { motion } from "framer-motion";
 import { useRef } from "react";
@@ -113,7 +113,7 @@ export default function Home() {
        
         ">
          
-        Elevate Your Space with Pro Budget Handyman: Salt Lake City's Top Handyman Services
+        Elevate Your Space with Pro Budget Handyman: Salt Lake City's Top Handyman Service
          </h1>
          <div className="
           relative
