@@ -40,7 +40,7 @@ const Header = () => {
             
             <Image
               src="/probudget-logo.webp"
-              alt="Pro Budget Handyman The best handyman in Utah"
+              alt="Pro Budget Handyman The best handyman in Salt Lake City Utah"
               className={`${scrolled ? 'w-[65%]' : 'w-[100%]'} transition-all duration-500 ease-in-out`}
               width={250}
               height={24}

@@ -3,6 +3,28 @@ import Image from "next/image";
 import hero from '../public/pro-budget-hero2.webp';
 import firstBody from '../public/elavate-pro-budget2.webp';
 import consider from '../public/considerations1.webp';
+import servicePic1 from './assets/imgs/services-_1_.webp';
+import servicePic2 from './assets/imgs/services-_2_.webp';
+import servicePic3 from './assets/imgs/services-_3_.webp';
+import servicePic4 from './assets/imgs/services-_4_.webp';
+import servicePic5 from './assets/imgs/services-_5_.webp';
+import servicePic6 from './assets/imgs/services-_6_.webp';
+import servicePic7 from './assets/imgs/services-_7_.webp';
+import servicePic8 from './assets/imgs/services-_8_.webp';
+import servicePic9 from './assets/imgs/services-_9_.webp';
+import servicePic10 from './assets/imgs/services-_10_.webp';
+import servicePic11 from './assets/imgs/services-_11_.webp';
+import servicePic12 from './assets/imgs/services-_12_.webp';
+import servicePic13 from './assets/imgs/services-_13_.webp';
+import servicePic14 from './assets/imgs/services-_14_.webp';
+import servicePic15 from './assets/imgs/services-_15_.webp';
+import servicePic16 from './assets/imgs/services-_16_.webp';
+import servicePic17 from './assets/imgs/services-_17_.webp';
+import servicePic18 from './assets/imgs/services-_18_.webp';
+import servicePic19 from './assets/imgs/services-_19_.webp';
+import servicePic20 from './assets/imgs/services-_20_.webp';
+import servicePic21 from './assets/imgs/services-_21_.webp';
+import servicePic22 from './assets/imgs/services-_22_.webp';
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
@@ -92,7 +114,7 @@ export default function Home() {
     border-[#ababab]
     shadow-lg
     border
-    md:border-4
+    md:border-0
     rounded-md
     min-[1024px]:mt-14
     min-[1024px]:flex
@@ -276,7 +298,7 @@ export default function Home() {
     rounded-md
     shadow-lg
     border
-    md:border-4
+    md:border-0
     min-[1024px]:flex
     min-[1024px]:flex-col
     min-[1024px]:items-center
@@ -336,7 +358,7 @@ export default function Home() {
     min-[1024px]:mt-12
     min-[1024px]:mb-12
     ">
-    <ul className="list-disc pl-6 min-[1024px]:w-[50%] font-[gillsans]">
+    <ul className="list-disc pl-6 min-[1024px]:grid min-[1024px]:grid-cols-2  font-[gillsans]">
       <li>
     <motion.div
             initial="hidden"
@@ -351,10 +373,11 @@ export default function Home() {
         <div className="mb-4">
           <span className='font-bold text-[#c35b5c]'>Versatility in Services:</span>
           <p className="
-    text-center 
+    text-center
+    min-[1024px]:text-left 
     mb-6 
     font-[gillsans]   
-   
+    min-[1024px]:w-[90%]
     ">
   We specialize in a range of crucial home repairs, from interior and exterior door painting
    to installing
@@ -382,7 +405,8 @@ export default function Home() {
     text-center 
     mb-6 
     font-[gillsans]   
-  
+    min-[1024px]:text-left
+    min-[1024px]:w-[90%]
     ">
   With services like dryer vent cleaning and gutter cleaning, we ensure your home
    functions efficiently and is well-maintained. This attention to detail
@@ -409,7 +433,8 @@ export default function Home() {
     text-center 
     mb-6 
     font-[gillsans]   
-   
+   min-[1024px]:text-left
+   min-[1024px]:w-[90%]
     ">
   We take care of bathroom installations, including bathroom exhaust fan installation,
    bathroom vanity installation, and bathtub installation. Our expertise extends to 
@@ -436,7 +461,8 @@ export default function Home() {
     text-center 
     mb-6 
     font-[gillsans]   
-   
+   min-[1024px]:text-left
+   min-[1024px]:w-[90%]
     ">
   For finishing touches, we offer baseboard and trim installation, adding the perfect
    touch to your interior spaces.
@@ -463,7 +489,8 @@ export default function Home() {
     text-center 
     mb-6 
     font-[gillsans]   
- 
+ min-[1024px]:text-left
+ min-[1024px]:w-[90%]
     ">
    At Pro Budget Handyman, we're renowned for reliability and prompt responsiveness.
     When you choose us, you're opting for a hassle-free experience,
@@ -490,7 +517,8 @@ export default function Home() {
     text-center 
     mb-6 
     font-[gillsans]   
-  
+  min-[1024px]:text-left
+  min-[1024px]:w-[90%]
     ">
   Planning your budget becomes stress-free with us. We provide clear,
    project proposals that encompass all aspects of the job,
@@ -565,15 +593,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={builtInCabinet}
-          alt="Pro Budget Handyman built in electrical"
+          src={servicePic9}
+          alt="Pro Budget Handyman Ceiling Fan Installation & Replacement"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8 '>Efficient and Safe Installations</li>
         <li className='mb-8'>Expert Replacement Services</li>
         <li className='mb-8'>Enhance Air Circulation in Any Room</li>
@@ -623,15 +651,15 @@ export default function Home() {
           
         ">
 
-        {/*<Image
+        <Image
           className=""
-          src={customDoor}
-          alt="Pro Budget Handyman custom door"
+          src={servicePic7}
+          alt="Pro Budget Handyman electric fireplace installation"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Cozy and Stylish Home Upgrades</li>
         <li className='mb-8'>Safe and Professional Installation</li>
         <li className='mb-8'>Transform Your Living Space with Ambiance</li>
@@ -680,15 +708,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={customStairs}
-          alt="Pro Budget Handyman custom staircase"
+          src={servicePic6}
+          alt="Pro Budget Handyman flooring repair"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Swift and Skillful Floor Repairs </li>
         <li className='mb-8'>Comprehensive Solutions for Various Flooring Types</li>
         <li className='mb-8'>Restore the Beauty and Integrity of Your Floors</li>
@@ -739,15 +767,14 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={woodenFloor}
-          alt="Pro Budget Handyman wooden flooring"
+          src={servicePic5}
+          alt="Pro Budget Handyman light fixture intallation"
           sizes='80vw'
          
-        />*/}
-      </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+        />      </div>
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Illuminate Your Home Inside and Out</li>
         <li className='mb-8'>Quick and Precise Installations</li>
         <li className='mb-8'>Enhance Ambiance with Stylish Fixtures</li>
@@ -796,15 +823,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={woodRestore}
-          alt="Pro Budget Handyman wood restoration and replication"
+          src={servicePic4}
+          alt="Pro Budget Handyman garbage disposal replacement"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Hassle-Free Disposal Upgrades</li>
         <li className='mb-8'>Professional Replacement Services</li>
         <li className='mb-8'>Improve Kitchen Efficiency and Hygiene</li>
@@ -853,15 +880,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={millwork}
-          alt="Pro Budget Handyman custom millwork"
+          src={servicePic3}
+          alt="Pro Budget Handyman Kitchen and Bathroom Faucet Installation"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Upgrade Your Kitchen and Bathroom Spaces</li>
         <li className='mb-8'>Quick and Reliable Faucet Installations</li>
         <li className='mb-8'>Enhance Functionality and Aesthetics</li>
@@ -911,15 +938,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={remodeling}
-          alt="Pro Budget Handyman home renovation and remodeling"
+          src={servicePic22}
+          alt="Pro Budget Handyman Furniture Assembly"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Stress-Free Furniture Setup</li>
         <li className='mb-8'>Efficient and Accurate Assembly</li>
         <li className='mb-8'>Enjoy Your New Furniture Without the Hassle</li>
@@ -968,15 +995,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={shelving}
-          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          src={servicePic2}
+          alt="Interior & Exterior Door Painting by Pro Budget Handyman in Salt Lake City Utah"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Revitalize Your Doors with Professional Painting</li>
         <li className='mb-8'>Expert Color Matching and Application</li>
         <li className='mb-8'>Boost Curb Appeal and Interior Aesthetics</li>
@@ -1027,15 +1054,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={shelving}
-          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          src={servicePic1}
+          alt="Interior Door Installation by Pro Budget Handyman in Salt Lake City Utah"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Seamless and Professional Door Installations</li>
         <li className='mb-8'>Enhance Privacy and Room Functionality</li>
         <li className='mb-8'>Choose from a Variety of Door Styles</li>
@@ -1084,15 +1111,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={shelving}
-          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          src={servicePic20}
+          alt="Closet Door Installation by Pro Budget Handyman in salt lake city"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Optimize Storage Spaces with Stylish Closet Doors</li>
         <li className='mb-8'>Efficient and Precise Installations</li>
         <li className='mb-8'>Customize Doors to Fit Your Unique Style</li>
@@ -1141,15 +1168,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={shelving}
-          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          src={servicePic19}
+          alt="Dryer Vent Cleaning by Pro Budget Handyman in Salt Lake City Utah"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Prevent Fire Hazards and Improve Efficiency</li>
         <li className='mb-8'>Thorough and Professional Vent Cleaning</li>
         <li className='mb-8'>Ensure Proper Airflow for Your Dryer</li>
@@ -1198,15 +1225,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={shelving}
-          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          src={servicePic17}
+          alt="Toilets, Bathroom Exhaust Fan Installation & Replacement by Pro Budget Handyman in Salt Lake City Utah"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Reliable Toilet Installations and Replacements</li>
         <li className='mb-8'>Improve Air Quality with Exhaust Fan Installation</li>
         <li className='mb-8'>Enhance Bathroom Functionality and Comfort</li>
@@ -1260,15 +1287,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={shelving}
-          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          src={servicePic16}
+          alt="Kitchen Cabinet Installation by Pro Budget Handyman in Salt Lake City Utah"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Customized Cabinet Installations for Your Kitchen</li>
         <li className='mb-8'>Efficient and Precise Installation Services</li>
         <li className='mb-8'>Upgrade Your Kitchen Storage and Style</li>
@@ -1318,15 +1345,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={shelving}
-          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          src={servicePic15}
+          alt="Bathroom Vanity Installation by Pro Budget Handyman in Salt Lake City Utah"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Transform Your Bathroom with Stylish Vanities</li>
         <li className='mb-8'>Professional and Efficient Installation Services</li>
         <li className='mb-8'>Maximize Storage and Aesthetics in Your Bathroom</li>
@@ -1376,15 +1403,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={shelving}
-          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          src={servicePic14}
+          alt="Bathtub Installation by Pro Budget Handyman in Salt Lake City Utah"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Luxurious Bathtub Installations for Relaxation</li>
         <li className='mb-8'>Customize Your Bathroom Space</li>
         <li className='mb-8'>Professional and Safe Installation Services</li>
@@ -1434,15 +1461,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+      <Image
           className=""
-          src={shelving}
-          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          src={servicePic13}
+          alt="Shower Valve Cartridge Replacement by Pro Budget Handyman in Salt Lake City Utah"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Ensure Optimal Water Temperature and Flow</li>
         <li className='mb-8'>Expert Replacement Services</li>
         <li className='mb-8'>Improve Your Shower Experience</li>
@@ -1492,15 +1519,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={shelving}
-          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          src={servicePic12}
+          alt=" Baseboard and Trim Installation by Pro Budget Handyman in Salt Lake City Utah"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Enhance Interior Design with Stylish Baseboards</li>
         <li className='mb-8'>Professional Installation for a Polished Look</li>
         <li className='mb-8'>Choose from a Variety of Materials and Finishes</li>
@@ -1550,15 +1577,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={shelving}
-          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          src={servicePic11}
+          alt="Gutter Cleaning by Pro Budget Handyman in Salt Lake City Utah"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Prevent Water Damage with Regular Gutter Maintenance</li>
         <li className='mb-8'>Thorough and Efficient Cleaning Services</li>
         <li className='mb-8'>Ensure Proper Water Drainage from Your Roof</li>
@@ -1608,15 +1635,15 @@ export default function Home() {
           w-[100%]
           
         ">
-        {/*<Image
+        <Image
           className=""
-          src={shelving}
-          alt="custom shelving and storage from Pro Budget Handyman in utah"
+          src={servicePic10}
+          alt="TV Mounting by Pro Budget Handyman in Salt Lake City Utah"
           sizes='80vw'
          
-        />*/}
+        />
       </div>
-      <ul className="ml-4 list-disc list-inside font-[macklin] w-full">
+      <ul className="ml-4 list-disc list-inside font-[macklin] w-full mt-8">
         <li className='mb-8'>Professional and Secure TV Installation</li>
         <li className='mb-8'>Customized Placement for Optimal Viewing</li>
         <li className='mb-8'>Concealed Wiring for a Clean and Tidy Look</li>

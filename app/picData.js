@@ -224,7 +224,7 @@ export const PicSquareTallArr = [
         key:37,
         path:'/window-install.webp',
         alt:'Window installation By Pro Budget Handyman in Salt Lake City Utah',
-        description:'Pro Budget Handyman is your go to source for window installation in Utah.'
+        description:'Pro Budget Handyman is your go to source for window installation in Salt Lake City Utah.'
     },
 ];
 
