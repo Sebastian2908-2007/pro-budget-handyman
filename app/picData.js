@@ -212,7 +212,7 @@ export const PicSquareTallArr = [
         key:35,
         path:'/floor-shed.webp',
         alt:'Custom shed floor By Pro Budget Handyman in Salt Lake City Utah',
-        description:'Need a splace to store you stuff? Experience custom sheds from Pro Budget Handyman.'
+        description:'Need a space to store you stuff? Experience custom sheds from Pro Budget Handyman.'
     },
     {
         key:36,
