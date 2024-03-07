@@ -125,7 +125,8 @@ export default function RootLayout({ children }) {
             min-[412px]:px-28
             min-[540px]:px-44
             min-[768px]:px-64
-            min-[1024px]:px-8
+            min-[1024px]:px-6
+            min-[1366px]:px-2
             mb-4
             ">
             <span className="text-white font-[toroka]">Phone:</span>

@@ -180,8 +180,7 @@ export default function Home() {
         ">
           from electrical fixes to drywall and flooring services.
         Our team is equipped to integrate modern upgrades, including smart home
-         enhancements and security
-         systems, 
+         enhancements and physical security like deadbolts and code locks, 
         </p>
         </motion.div>
         <motion.div

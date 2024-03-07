@@ -12,10 +12,8 @@ const PicTallShort = ({props}) => {
         rounded-lg 
         border 
         border-transparent  
-        transition-colors 
-        hover:border-gray-300 
-        hover:bg-gray-100 
-        hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30
+        transition-colors   
+        hover:bg-[#c6b3b4]
         h-full
         "
         target="_blank"

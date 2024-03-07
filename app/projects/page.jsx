@@ -47,6 +47,8 @@ const Projects = () => {
       lg:gap-0 
       lg:text-left
       xl:max-w-full
+      xl:grid-cols-3
+      xl:mb-14
       ">
         {
             PicSquareShortArr.map((pic) => (
@@ -72,6 +74,8 @@ const Projects = () => {
       lg:gap-0 
       lg:text-left
       xl:max-w-full
+      xl:grid-cols-3
+      xl:mb-14
       ">
         {
             PicSquareTallArr.map((pic) => (
@@ -94,12 +98,15 @@ mb-36
 md:col-span-2
 text-center 
 md:max-w-5xl
-xl:max-w-7xl 
 md:w-full 
 md:mb-0 
 md:grid-cols-2 
 md:gap-0  
-md:text-left">
+md:text-left
+xl:max-w-[100rem]
+xl:grid-cols-3 
+xl:mb-14
+">
      {
             PicTallTallerArr.map((pic) => (
                 <PicTallTaller props={pic}/>
@@ -119,13 +126,15 @@ md:text-left">
   md:col-span-2
 text-center 
 md:max-w-5xl
-xl:max-w-7xl 
-
 md:w-full 
 md:mb-0 
 md:grid-cols-2 
 md:gap-0  
-md:text-left">
+md:text-left
+xl:max-w-[100rem]
+xl:grid-cols-3 
+xl:mb-14
+">
      {
             PicTallShortArr.map((pic) => (
                 <PicTallShort props={pic}/>
