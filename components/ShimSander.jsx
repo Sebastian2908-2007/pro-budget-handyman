@@ -400,7 +400,7 @@ const ShimSander = () => {
             min-[1920px]:px-72
             min-[1920px]:mb-14
             ">
-           Pro Budget Handyman once again demonstrates their commitment to providing
+           Pro Budget Handyman once again demonstrates our commitment to providing
             innovative solutions that enhance efficiency and quality in home improvement projects.     
             </p>
             </motion.div>
