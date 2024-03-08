@@ -26,7 +26,9 @@ import servicePic20 from './assets/imgs/services-_20_.webp';
 import servicePic21 from './assets/imgs/services-_21_.webp';
 import servicePic22 from './assets/imgs/services-_22_.webp';
 import ShimSander from "@/components/ShimSander";
+import ServiceAreas from "@/components/ServiceArea";
 import { motion } from "framer-motion";
+import Google from "@/components/Google";
 
 
 export default function Home() {
@@ -58,7 +60,7 @@ export default function Home() {
         rounded-md
         text-[#ebebeb]
         p-1
-        hover:bg-[#1a0708]
+        hover:bg-[#c35b5c]
         hover:opacity-100
         right-[4.8rem] 
         bottom-16
@@ -138,6 +140,7 @@ export default function Home() {
          
         Elevate Your Space with Pro Budget Handyman: Salt Lake City's Top Handyman Service
          </h1>
+         <ServiceAreas/>
          <div className="
           relative
           flex 
@@ -288,7 +291,7 @@ export default function Home() {
         </p>
         </motion.div>
     </section>
-   
+     <Google/>
     <section className="
     container 
     mx-auto 
@@ -612,6 +615,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -670,6 +674,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -728,6 +733,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -785,6 +791,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -842,6 +849,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -900,6 +908,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -957,6 +966,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -1014,6 +1024,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -1073,6 +1084,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -1130,6 +1142,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -1187,6 +1200,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -1245,6 +1259,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -1307,6 +1322,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -1365,6 +1381,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -1423,6 +1440,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -1481,6 +1499,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -1539,6 +1558,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -1597,6 +1617,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>
@@ -1655,6 +1676,7 @@ export default function Home() {
         font-[toroka] 
         text-lg
         text-[#e41314]
+        hover:bg-[#c35b5c]
         " 
         href="tel:801-856-8040">Click to Call Now!</a>
           </p>

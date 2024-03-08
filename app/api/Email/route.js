@@ -10,7 +10,7 @@ export async function POST(request) {
      await resend.emails.send({
       from:`sebastian@topdev.tech`, 
       //from: 'sebastian@topdev.tech',
-      to:'sebastian@topdev.tech',
+      to:'probudgethandyman@gmail.com',
       subject: `Hot lead from ${name}`,
       react: LeadEmail({ email, name,phone,description }),
     });
