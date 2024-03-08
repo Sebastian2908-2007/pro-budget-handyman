@@ -77,7 +77,6 @@ const ServiceAreas = () => {
         min-[360px]:text-lg
         bg-[#e41314]
         shadow-xl
-        w-[25%]
         text-center
         rounded-md
         text-[#ebebeb]

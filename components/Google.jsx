@@ -6,7 +6,7 @@ const Google = () => {
     return(
         <section className="flex flex-col items-center mt-8">
              <Image
-          className="min-[768px]:w-[20%]"
+          className="w-[80%] min-[768px]:w-[20%]"
           src={google}
           alt="Pro Budget Handyman Google reviews section header"
           sizes='80vw'
