@@ -25,11 +25,12 @@ import servicePic19 from './assets/imgs/services-_19_.webp';
 import servicePic20 from './assets/imgs/services-_20_.webp';
 import servicePic21 from './assets/imgs/services-_21_.webp';
 import servicePic22 from './assets/imgs/services-_22_.webp';
+import ShimSander from "@/components/ShimSander";
 import { motion } from "framer-motion";
-import { useRef } from "react";
+
 
 export default function Home() {
-  const scrollRef = useRef(null);
+  
   return (
     <>
     <div className="
@@ -1661,7 +1662,7 @@ export default function Home() {
     </motion.div>
 
 </div>
-
+<ShimSander/>
       
     </div>
     </>

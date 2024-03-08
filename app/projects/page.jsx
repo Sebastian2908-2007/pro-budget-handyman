@@ -25,7 +25,7 @@ const Projects = () => {
       ">
         {
             PicSquareTallestArr.map((pic) => (
-                <PicSquareTallest props={pic}/>
+                <PicSquareTallest key={pic.key} props={pic}/>
             ))
         }
 
@@ -52,7 +52,7 @@ const Projects = () => {
       ">
         {
             PicSquareShortArr.map((pic) => (
-                <PicSquareShort props={pic}/>
+                <PicSquareShort key={pic.key} props={pic}/>
             ))
         }
         
@@ -79,7 +79,7 @@ const Projects = () => {
       ">
         {
             PicSquareTallArr.map((pic) => (
-                <PicSquareTall props={pic}/>
+                <PicSquareTall key={pic.key} props={pic}/>
             ))
         }
          
@@ -109,7 +109,7 @@ xl:mb-14
 ">
      {
             PicTallTallerArr.map((pic) => (
-                <PicTallTaller props={pic}/>
+                <PicTallTaller key={pic.key} props={pic}/>
             ))
         }
 
@@ -137,7 +137,7 @@ xl:mb-14
 ">
      {
             PicTallShortArr.map((pic) => (
-                <PicTallShort props={pic}/>
+                <PicTallShort key={pic.key} props={pic}/>
             ))
         }
 

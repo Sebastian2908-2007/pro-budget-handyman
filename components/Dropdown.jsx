@@ -2,17 +2,20 @@
 import { useState,useEffect, useRef  } from 'react';
 import { FaBarsStaggered } from "react-icons/fa6";
 import Link from 'next/link';
+import { usePathname } from 'next/navigation'
 //hover coler #fde1e2
 const Dropdown = () => {
-
+  const pathname = usePathname()
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef();
+  const display = pathname === '/projects' ;
+  const displayContact = pathname === '/Contact' ;
 
     // Close the dropdown when a link is clicked
     const closeDropdown = () => {
         setIsOpen(false);
       };
-    
+     
 
     // Close the dropdown when clicking outside
     useEffect(() => {
@@ -69,7 +72,7 @@ const Dropdown = () => {
           aria-labelledby="options-menu" 
           ref={dropdownRef}>
         
-         <>
+      
 
          <Link
          onClick={() => {
@@ -93,6 +96,10 @@ const Dropdown = () => {
             >
               Contact Us
             </Link>
+            
+        {!display ?
+       
+        <>
          <Link
          onClick={() => {
           closeDropdown();
@@ -115,12 +122,9 @@ const Dropdown = () => {
             >
               Projects
             </Link>
-
-
-          
-            </>
-            
-              
+           {displayContact ?
+           null
+             :
             <span 
             className="
             block 
@@ -130,7 +134,7 @@ const Dropdown = () => {
             text-[#1a0708] 
             hover:bg-[#e41314] 
             hover:text-[#d9b061]
-            
+            cursor-pointer
              
             font-[encyclopaediea]
             " 
@@ -145,8 +149,56 @@ const Dropdown = () => {
             }}
             >
              Services
-            </span>
-
+            </span> 
+                }
+            <Link
+            onClick={() => {
+             closeDropdown();
+            }}
+            href='/'   
+               className="
+               block 
+               px-4 
+               py-2 
+               text-[.8em] 
+               text-[#1a0708] 
+               hover:bg-[#e41314]
+               hover:text-[#d9b061]
+               
+                
+               font-[encyclopaediea]
+               " 
+              
+             
+               >
+                 Home
+               </Link>
+            </>
+            :
+            <Link
+            onClick={() => {
+             closeDropdown();
+            }}
+            href='/'   
+               className="
+               block 
+               px-4 
+               py-2 
+               text-[.8em] 
+               text-[#1a0708] 
+               hover:bg-[#e41314]
+               hover:text-[#d9b061]
+               
+                
+               font-[encyclopaediea]
+               " 
+              
+             
+               >
+                 Home
+               </Link>
+            
+            }
           </div>
         </div>
       )}

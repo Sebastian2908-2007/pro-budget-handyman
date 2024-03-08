@@ -137,6 +137,8 @@ export default function RootLayout({ children }) {
         text-lg
         text-white
         hover:text-[#e41314]
+        text-[.9rem]
+        min-[360px]:text-[1rem]
         " 
         href="mailto:probudgethandyman@gmail.com">
           probudgethandyman@gmail.com
