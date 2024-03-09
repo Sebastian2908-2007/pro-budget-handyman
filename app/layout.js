@@ -17,8 +17,8 @@ import Link from "next/link";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Pro Budget Handyman || The best handyman salt lake city utah",
-  description: "Discover the ultimate solution for all your home repair needs with Pro Budget Handyman – your go-to choice for the best handyman services in Salt Lake City, Utah. Our skilled professionals deliver top-notch, budget-friendly solutions to transform your space. From minor fixes to major renovations, trust us to handle it all with precision and expertise. Elevate your home maintenance experience with Pro Budget Handyman where quality meets affordability in Salt Lake City.",
+  title: "Pro Budget Handyman || handyman services in Salt Lake City Utah",
+  description: "Discover the ultimate solution for all your home repair needs with Pro Budget Handyman  your go-to choice for the best handyman services in Salt Lake City, Utah. Our skilled professionals deliver top-notch, budget-friendly solutions to transform your space. From minor fixes to major renovations, trust us to handle it all with precision and expertise. Elevate your home maintenance experience with Pro Budget Handyman where quality meets affordability in Salt Lake City.",
   keywords: [
     'handyman salt lake city utah', 
     'handyman utah',
