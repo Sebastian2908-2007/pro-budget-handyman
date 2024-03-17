@@ -120,9 +120,9 @@ export default function Home() {
     md:border-0
     rounded-md
     min-[1024px]:mt-14
-    min-[1024px]:flex
-    min-[1024px]:flex-col
-    min-[1024px]:items-center
+    min-[768px]:flex
+    min-[768px]:flex-col
+    min-[768px]:items-center
     min-[1920px]:mt-0
     ">
         <h1 className="
